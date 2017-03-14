@@ -1,5 +1,6 @@
 #include "ISKOJsonClient.h"
 
+
 ISKOJsonClient::ISKOJsonClient() {}
 
 
@@ -38,6 +39,7 @@ void ISKOJsonClient::parseISKOJson() {
     }
   }
 
+  noNewData = true;
   char c;
   int size = 0;
   client.setNoDelay(false);
