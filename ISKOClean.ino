@@ -42,7 +42,7 @@ void loop() {
   USE_SERIAL.println("Index v Libusi: ");
   USE_SERIAL.println(ISKOClient.getIndex());  
   indexShow(ISKOClient.getIndex());
-  delay(900000);
+  delay(120000);
 
 }
 
