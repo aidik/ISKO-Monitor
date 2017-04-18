@@ -12,7 +12,8 @@ ESP-8266 Software for Parsing [JSON information](http://portal.chmi.cz/files/por
 #### [json-streaming-parser](https://github.com/squix78/json-streaming-parser)
 | Author  | Description    | Used Commit   | License   |
 | ------- | -------------- | ------------- | --------- |
-| [![Daniel Eichhorn](https://avatars2.githubusercontent.com/u/716822?s=48 "Daniel Eichhorn")](https://github.com/squix78) | Arduino library for parsing potentially huge json streams on devices with scarce memory. | [531870a](https://github.com/squix78/json-streaming-parser/tree/531870ac432e5c240706fc854e28d4b3222d4926) | MIT license |
+| [![Daniel Eichhorn](https://avatars2.githubusercontent.com/u/716822?s=48 "Daniel Eichhorn")](https://github.com/squix78) | Arduino library for parsing potentially huge json streams
+on devices with scarce memory. | [531870a](https://github.com/squix78/json-streaming-parser/tree/531870ac432e5c240706fc854e28d4b3222d4926) | MIT license |
 
 #### [WiFiManager](https://github.com/tzapu/WiFiManager)
 | Author  | Description    | Used Commit   | License   |
