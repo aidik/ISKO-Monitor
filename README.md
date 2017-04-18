@@ -5,9 +5,14 @@ ESP-8266 Software for Parsing [JSON information](http://portal.chmi.cz/files/por
 ## Dependencies
 
 #### [Adafruit-WS2801-Library](https://github.com/adafruit/Adafruit-WS2801-Library)
-| Logo    | Description    | Used Commit   | License   |
+| Author    | Description    | Used Commit   | License   |
 | ------- | -------------- | ------------- | --------- |
 | [![Adafruit Industries](https://avatars1.githubusercontent.com/u/181069?s=48 "Adafruit Industries")](https://github.com/adafruit) | Arduino library for controlling strips/pixels using WS2801 driver chips. | [43ca5e0](https://github.com/adafruit/Adafruit-WS2801-Library/tree/43ca5e0bc78e51722418eb1f5099eba972e6fa95) | BSD license |
+
+#### [json-streaming-parser](https://github.com/squix78/json-streaming-parser)
+| Author    | Description    | Used Commit   | License   |
+| ------- | -------------- | ------------- | --------- |
+| [![Daniel Eichhorn](https://avatars2.githubusercontent.com/u/716822?s=48 "Daniel Eichhorn")](https://github.com/squix78) | Arduino library for parsing potentially huge json streams on devices with scarce memory. | [531870a](https://github.com/squix78/json-streaming-parser/tree/531870ac432e5c240706fc854e28d4b3222d4926) | MIT license |
 
 ## Legend
 ![LED Strip Legend](/Docs/images/legend.png?raw=true "LED Strip Legend")
