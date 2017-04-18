@@ -32,18 +32,19 @@ ESP-8266 Software for Parsing [JSON information](http://portal.chmi.cz/files/por
   * WS2801 5V Programmable 32 Pixel Digital Led (SMD 5050 RGB) Strip
 
 ## Schematics
-My Strip arrived from China in protective case and with cables already atached. For some reason both 5V and Data are both red.
+My Strip arrived from China in a protective case and with the cables already attached. For some reason both 5V and Data are **red**.
 ![Project Schematics](/Docs/images/schema.png?raw=true "Project Schematics")
 
 ## Connection
-Thanks to the WiFiManager your device will start in AP mode. Simply connect to the network called *ISKO-MONITOR and use password *iskomagic*.
+Thanks to the WiFiManager your device will start in AP mode. Simply connect to the network called **ISKO-MONITOR** and use the password *iskomagic*.
 
 ## Known Issues / To Dos
   * Green and Blue segments are interchanged, either in the used Strip or in Adafruit Library.
   * Libuš (ALIBA Location) is hardcoded into the ISKOJsonClient.
   * Multiple setPixelColor calls on [line 137](/ISKOClean.ino#L137).
-  * Data from ISKO are delyed by aproximatly 7 minutes.
+  * Data from ISKO are delayed by approximately 7 minutes.
 
 ## Disclaimer
 Pin numbers are different on ESP-8266, pins used in this case are GPIO4 & GPIO05 labeled as D14/SDA & D15/SCL.
-My LED Strip was delivered with multiple red cables. Make sure that you know, what connects where.
+
+My LED Strip was delivered with multiple red cables. Make sure that you know what connects where.
