@@ -5,8 +5,10 @@ ESP-8266 Software for Parsing [JSON information](http://portal.chmi.cz/files/por
 ## Dependencies
 
 ### [Adafruit-WS2801-Library](https://github.com/adafruit/Adafruit-WS2801-Library/tree/43ca5e0bc78e51722418eb1f5099eba972e6fa95)
-|[![Adafruit Industries](https://avatars1.githubusercontent.com/u/181069?s=48 "Adafruit Industries")](https://github.com/adafruit)|Arduino library for controlling strips/pixels using WS2801 driver chips.|43ca5e0|BSD license
+| Logo    | Description    | Used Commit   | License   |
+| ------- | -------------- | ------------- | --------- |
+| [![Adafruit Industries](https://avatars1.githubusercontent.com/u/181069?s=48 "Adafruit Industries")](https://github.com/adafruit) | Arduino library for controlling strips/pixels using WS2801 driver chips. | 43ca5e0 | BSD license |
 
 ## Legend
-![LED Strip Legend](/blob/master/Docs/images/legend.svg?raw=true "LED Strip Legend")
-![LED Strip Legend](/blob/master/Docs/images/legend.png?raw=true "LED Strip Legend")
+![LED Strip Legend](/Docs/images/legend.svg?raw=true "LED Strip Legend")
+![LED Strip Legend](/Docs/images/legend.png?raw=true "LED Strip Legend")
